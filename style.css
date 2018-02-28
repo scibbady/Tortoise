@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+  line-height: 1.4
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url("resources/banner.png");
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+}
+
+.sitecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.nav {
+  padding-right: 2rem;
+}
