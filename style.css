@@ -4,11 +4,6 @@ html {
   font-family: helvetica;
 }
 
-.body {
-  display: flex;
-  flex-direction: column;
-}
-
 .banner {
   display: flex;
   justify-content: center;
@@ -72,6 +67,7 @@ html {
 @media only screen and (max-width: 1024px) {
   .sitecontainer {
     width: 100%;
+    overflow: hidden;
   }
   .banner {
     height: 22rem;
@@ -184,25 +180,6 @@ html {
 }
 
 @media only screen and (max-width: 670px) {
-  .information {
-    flex-direction: column;
-
-   }
-   .info {
-     width: 100%;
-   }
-   .info h4 {
-    text-align: center;
-    width: 100%;
-
-   }
-  .info p {
-    font-size: 0.77rem;
-  }
-  .appointments {
-    margin-top: 5rem;
-    margin-left: 0;
-  }
   .infobox {
     flex-direction: column;
     align-content: space-between;
@@ -221,6 +198,25 @@ html {
     margin-bottom: 3.77rem;
   }
   .icon {
+    margin-left: 0;
+  }
+  .information {
+    flex-direction: column;
+
+   }
+   .info {
+     width: 100%;
+   }
+   .info h4 {
+    text-align: center;
+    width: 100%;
+
+   }
+  .info p {
+    font-size: 0.77rem;
+  }
+  .appointments {
+    margin-top: 5rem;
     margin-left: 0;
   }
 }
