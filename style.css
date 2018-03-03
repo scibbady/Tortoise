@@ -149,7 +149,6 @@ html {
 
 .information {
   display: flex;
-  width: 100%;
 }
 
 .info {
@@ -200,7 +199,7 @@ html {
   }
   .information {
     flex-direction: column;
-
+    width: 100%;
   }
    .info {
      width: 100%;
@@ -208,6 +207,7 @@ html {
    .info h4 {
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
   }
   .info p {
     font-size: 0.77rem;
